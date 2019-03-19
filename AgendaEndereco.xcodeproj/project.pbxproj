@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135C2F242240659B00C1D45E /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 135C2F232240659B00C1D45E /* photo.png */; };
 		13CB8366223C71B3000B23A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB8365223C71B3000B23A8 /* AppDelegate.swift */; };
 		13CB8368223C71B3000B23A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CB8367223C71B3000B23A8 /* ViewController.swift */; };
 		13CB836B223C71B3000B23A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CB8369223C71B3000B23A8 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		135C2F232240659B00C1D45E /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		13CB8362223C71B3000B23A8 /* AgendaEndereco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaEndereco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CB8365223C71B3000B23A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13CB8367223C71B3000B23A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		135C2F252240659F00C1D45E /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				135C2F232240659B00C1D45E /* photo.png */,
+			);
+			path = Imagens;
+			sourceTree = "<group>";
+		};
 		13CB8359223C71B3000B23A8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		13CB8364223C71B3000B23A8 /* AgendaEndereco */ = {
 			isa = PBXGroup;
 			children = (
+				135C2F252240659F00C1D45E /* Imagens */,
 				13CB8365223C71B3000B23A8 /* AppDelegate.swift */,
 				13CB8367223C71B3000B23A8 /* ViewController.swift */,
 				13CB8369223C71B3000B23A8 /* Main.storyboard */,
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CB8373223C71B6000B23A8 /* LaunchScreen.storyboard in Resources */,
+				135C2F242240659B00C1D45E /* photo.png in Resources */,
 				13CB8370223C71B6000B23A8 /* Assets.xcassets in Resources */,
 				13CB836B223C71B3000B23A8 /* Main.storyboard in Resources */,
 			);
