@@ -36,11 +36,7 @@ class AgendaViewController: UIViewController {
     
     @IBAction func SaveButton(_ sender: Any)
         {
-            
-    }
-    
-    @IBAction func CancelButton(_ sender: Any) {
-        _ = navigationController?.popToRootViewController(animated: true)
+           _ = navigationController?.popToRootViewController(animated: true)
     }
     
     func selectImageFrom(_ source: ImageSource){
